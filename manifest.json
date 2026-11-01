@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Falcon512 Recovery",
+  "version": "0.2.1",
+  "description": "Independent Solana vault recovery. Falcon-512 plus Phantom; no Falcon512 website required.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.devnet.solana.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "optional_host_permissions": [
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "Open Falcon512 Recovery with this tab's Phantom"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none';"
+  }
+}

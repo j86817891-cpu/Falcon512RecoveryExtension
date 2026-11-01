@@ -1,0 +1,6 @@
+{
+  "rpc": "https://api.devnet.solana.com",
+  "programId": "EsQMXZQNJqDnU87uQypTo6xN6nRSR5LR1tgvy3MXMAnS",
+  "deployed": true,
+  "elfSha256": "f0fefa1fc27e06b6cb8bb769960744c412e2373505cc58d7917c704e8b5b5ada"
+}
